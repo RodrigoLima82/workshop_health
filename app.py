@@ -28,13 +28,13 @@ def main():
     # ============================== HOME ======================================================= #
     if choice == "Home":
 
-        st.header("Olá a todos! Olá Nelio e Luis")
+        st.header("Olá a todos!")
         st.subheader("Muito obrigado pela sua participação neste evento.")
         st.write("Este aplicativo irá calcular o % de risco do paciente ter uma Fibrilação Atrial (Arritmia Cardíaca) com base em seu histórico de sinais ECG. ")
         st.write("\n\n\n")
         
-        image = PIL.Image.open("images/I4H.png")
-        st.image(image,caption="")
+        #image = PIL.Image.open("images/I4H.png")
+        #st.image(image,caption="")
 
     # ============================== RISCO CARDIACO ======================================================= #
     if choice == "Risco Cardíaco":
@@ -109,11 +109,11 @@ def main():
 
                     st.write(fig)
     
-    if choice == 'Sobre I4H':
+    if choice == 'Sobre Nós':
         st.markdown('<style>body .fullScreenFrame > div { display: flex; justify-content: center; }</style>', unsafe_allow_html=True)
         
-        image2 = PIL.Image.open("images/quem_somos.png")
-        st.image(image2, caption="", width=700)
+        #image2 = PIL.Image.open("images/quem_somos.png")
+        #st.image(image2, caption="", width=700)
 
 if __name__ == '__main__':
     main()
