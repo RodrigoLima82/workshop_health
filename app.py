@@ -22,7 +22,7 @@ def main():
 
     st.write('<style>div.Widget.row-widget.stRadio > div{flex-direction:row;}</style>', unsafe_allow_html=True)
 
-    activities = ["Home", "Risco Cardíaco", "Sobre I4H"]
+    activities = ["Home", "Risco Cardíaco", "Sobre Nós"]
     choice = st.sidebar.selectbox("Menu", activities)
 
     # ============================== HOME ======================================================= #
