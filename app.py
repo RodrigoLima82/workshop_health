@@ -28,12 +28,12 @@ def main():
     # ============================== HOME ======================================================= #
     if choice == "Home":
 
-        st.header("Olá a todos!!! Serasa!!!")
+        st.header("Olá a todos!!!")
         st.subheader("Muito obrigado pela sua participação neste evento.")
         st.write("Este aplicativo irá calcular o % de risco do paciente ter uma Fibrilação Atrial (Arritmia Cardíaca) com base em seu histórico de sinais ECG. ")
         st.write("\n\n\n")
         
-        #image = PIL.Image.open("images/I4H.png")
+        #image = PIL.Image.open("images/teste.png")
         #st.image(image,caption="")
 
     # ============================== RISCO CARDIACO ======================================================= #
